@@ -1,0 +1,114 @@
+{
+    "csse": [
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "csse-7-100",
+            "title": "Backend Development at Amazon.com (Prime Video Sports)",
+            "studentName": "Amey Joshi ",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Amazon",
+            "facultyAdvisor": "Dr. Yang Peng",
+            "posterLink": "./posters/csse/joshi-amey.jpg",
+            "abstract": "During the summer of 2022, I had the opportunity to intern at Amazon as a Software Developer. I was assigned to the Customer Experience team at Prime Video Sports with a focus on backend development. My team consisted of 8 highly skilled software engineers. I was assigned an Onboarding Buddy and a Mentor who guided me throughout the internship.\n\n My project was to focus on the backend implementation for an upvote/downvote feature used by a customer-facing FAQ. I was tasked with implementing two different API’s that could retrieve and save a customer’s vote for any FAQ. The purpose of the upvote/downvote was to better understand if these FAQ’s were helpful in solving customer issues.\n\n The development work in my project followed a Design Document. This document highlighted the solutions to implement the API’s as well as the changes that need to be made to the existing backend infrastructure. While writing the design document, I worked with the front engineers to better understand the feature and my responsibilities in implementing it.\n\nDuring the project, I used AWS DynamoDB, AWS API Gateway Console, AWS Lambda functions and the existing codebase to implement the two API’s. After completing the implementation, I focused on testing my code using Unit Tests and Integration Tests. These tests were vital in ensuring that the front-end team didn’t have any issues when extracting customer vote data. My changes were then reviewed and approved by my team members. \n\nI completed my internship by presenting my project in front of all the customer experience team at Prime Video Sports. I was not able to see the significance of the project as it has yet to go into production. This internship was a great learning experience that taught me many important lessons that I will continue to carry as I become a professional software engineer. "
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "csse-7-115",
+            "title": "SDE Intern at 98point6",
+            "studentName": "Alexander Lambert",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - 98point6",
+            "facultyAdvisor": "Dr. Yang Peng",
+            "posterLink": "./posters/csse/lambert-alex.png",
+            "abstract": "98point6 is a company that produces an app of the same name, which provides on-demand text-based primary care. The app lets you text physicians and schedule virtual appointments with them whenever you need it at a very affordable price. On top of this, it also uses an automated assistant, which can confidently diagnose issues and recommend solutions before the physician is even contacted. At 98point6, I was an intern in the Eligibility and Onboarding Team, which is responsible for managing the list of members eligible to use our services. The goal of my internship was essentially to create the functionality to automate updating membership lists provided by companies that sponsor their employees for our service. \n\nAbout a year ago, 98point6 began transitioning from using Push Model to Pull Model to update the membership lists. This model only created subscription objects once a user tried to connect to it, which is much more efficient in most ways. Before my internship, the Push Model had a basic automatic approval feature for list changes, but the Pull Model had nothing. So even though most sponsor companies were already switched over to the Pull Model, the large companies could not because they require automatic approval.\n\nIn my internship, I created automatic approval in the Pull Model to fill this gap. I created many new data models, new endpoints across three different services/repositories, new lambdas inside of the AWS Step function to intake list files, and used feature flags, unit testing, and integration testing for the entire thing. By doing this, the large companies will be able to move to the Pull Model, and every company will have their files automatically approved, which will save 98point6’s Account Managers a combined 40 hours of work each week.\n\n My experience at 98point6 was very positive, especially relative to the challenges I had to face for my project. Working across multiple services while new testing and code verification methods are being implemented gave me a deeper understanding of why these mechanisms are in place and how they work. In total, my project was a resounding success, and my presentation will cover all this in much more detail."
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "csse-7-130",
+            "title": "Microsoft Teams and Skype Testing",
+            "studentName": "Hung Ta",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Micro Teksystems",
+            "facultyAdvisor": "Dr. Yang Peng",
+            "posterLink": "./posters/csse/ta-hung.jpg",
+            "abstract": "During my internship, one of my major tasks was to conduct detailed analysis of test results to find product defects and incomplete test cases in the test suites. Another requirement is to review test specifications, cases, and automation written by other team members for coverage and completeness. I was encouraged to improve the test quality and effectiveness by working with the Development and Program Management team to prevent problems and to make the product more testable. The goal is to find inconsistencies in test cases. I also maintained a set of machines in a laboratory setting to ensure the best testing environment. My other tasks included installing software and executing automated tests based on a clear set of instructions along with providing status reports on test scenarios, lab machines, and configurations.\n\nThe result concluded three months periods of manual and automatic testing that helped me improve my script language programming skills, organization skills, knowledge of software testing standard, and correct attitude to details. I have become more familiar with configuring development environments for Android and iOS as well as setting up Windows and Linux systems. Finally, I have learned the fundamentals of software development/testing cycles that could be applied in many fields in the future."
+        },
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "csse-7-145",
+            "title": "Signal Processing of Electroencephalogram Data",
+            "studentName": "Luca de Raad",
+            "studentMajor": "CSSE",
+            "projectType": "CSS Faculty Research",
+            "facultyAdvisor": "Dr. Erika Parsons",
+            "posterLink": "./posters/csse/deraad-lucan.jpg",
+            "abstract": "My capstone’s goal was to write programs that could be used for signal processing of electroencephalogram (also known as EEG) data to figure out what signals correspond to attention in real time, the results from the signal processing can eventually be used to rehabilitate stroke patients. EEG data is comprised of electronic waves of brain activity collected via dry electrode EEG.\n\nSome of my capstone’s goals evolved throughout my two quarters working on the project and goals changed as requirements expanded. One constraint that stayed the same was that my solution must be real time however what qualified as attention changed throughout the capstone. Initially we were trying to label and detect brainwaves of someone who had any stimulus, and I wrote programs in MATLAB that could have outputs such as flashing lights or playing music on a laptop and simultaneously record the EEG data. As the project evolved; we focused on jaw clench data to make signal processing more straightforward which made parts of the data collection program I wrote obsolete.\n\n My completed solution is a series of equations on the EEG data. The data is processed by using a Gabor transform which is a series of Fast Fourier Transforms (FFTs) in a sliding window. I then find if the EEG signals trend towards higher values to determine if there is a jaw clench. This approach is an efficient way to do real time data processing. I was then able to adapt my real time data collection software to instead do real time jaw clench data processing which is a successful proof of concept which a future researcher can build upon."
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "csse-7-200",
+            "title": "SDE Internship with Amazon Alexa",
+            "studentName": "Griffin Detracy",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Amazon",
+            "facultyAdvisor": "Dr. Erika Parsons",
+            "posterLink": "./posters/csse/detracy-griffinmichael.png",
+            "abstract": "What:\n\n At amazon I worked with the Alexa Devices team to develop new features. My team developed a reactionary feature in which a person can react to shared songs over Alexa multimodal (touchscreen and audio) devices. I worked to integrate the expressions service and features into a domain similar to music. Due to NDA I cannot specify the domain. At the end of my internship, I had completed my task of integration, but was unable to launch it due to time constraints   \n\nWhy: \n\nThe Alexa Devices team wanted to provide the Reaction service for Alexa messages in an easy location for users. My goal was to learn the target domain and integrate my team’s service. However, my integration also needed to be efficient and utilize the existing domains APIs and resources. My end goal was to provide a new user experience and more communication options to customers.   \n\nResult:\n\n At the end of my internship, I had completed my task of integration of the Expression Service with the existing Domain, but was unable to launch it due to time constraints. My integration included a visual representation of the reaction service as well as an API integration. I also produced an internal presentation to leadership on my work. \n\nSignificance:\n\n My work integrating the reaction service into another domain was done alongside the initial reaction service development. This means that my work was done to supplement the reaction service and to be launched if fully implemented. At the end of my internship, I provided a document to the reaction team that contained my published code as well as the tasks needed for the code to be fully implemented. The document was constructed so that another engineer could complete the last task and launch the reaction service for that domain. "
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "projectId": "csse-7-215",
+            "title": "Shipping With Amazon: SDE Internship",
+            "studentName": "Daniel Penkov",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Amazon",
+            "facultyAdvisor": "Dr. Erika Parsons",
+            "posterLink": "./posters/csse/penkov-danielivanov.png",
+            "abstract": "For my capstone, I completed a 12-week internship project as part of the Shipping with Amazon team at Amazon. SWA is responsible for providing software solutions that manage and optimize Amazon’s shipping business needs, including the onboarding of new clients, the generation of shipping rate proposals, and the interfacing with which Amazon sales representatives and clients can communicate and sync on potential service agreements. \n\nThe goal of my individual project on the team was to deprecate the use of Amazon SIM generation during the onboarding process of new SWA clients. SIMs act as communication pieces between services where excel files with customer rate proposal figures can be manually uploaded. However, the team launched a new service called Proposal Manager, which does the same work in an automated process, making the redundancy of SIMs a liability for the team. To deprecate SIM generation, I was tasked with understanding the Proposal Manager API, so that I could modify the API endpoints responsible for the end-to-end onboarding of a client. Next, I completed work on three big sub-tasks for my project. The first task was to set up a remotely accessible configuration file that can control the gradual roll out of my changes by only allowing queries from certain marketplaces and/or customers to invoke the new workflow. The next task was to refactor the onboarding endpoints in the Proposal Manager API to not trigger any SIM generation events. The last task was to update 2 external APIs to query the configuration file’s allowed list to choose which workflow of the Proposal Manager API to pass through to invoke the onboarding of a client.\n\n I was successful in creating a solution that allowed the team to dial up SIM deprecation in multiple marketplaces. I created a transition state where both onboarding workflow solutions could be turned on or off, allowing the team to gain confidence that as Proposal Manager rolls out, they can safely get rid of the redundant use of SIMs.\n\nThe work I completed in my internship provided a safety net approach to a proof-of-concept solution that shows that the team can safely deprecate a legacy process and save resources and time because of it. This project will pave the way for the full deprecation of SIM generation in the SWA onboarding process and allow the team to focus on more important team projects."
+        },
+        {
+            "time": "2:30 PM - 2:45 PM",
+            "projectId": "csse-7-230",
+            "title": "Factory Deployment Manager & Station Controller",
+            "studentName": "Wes Miravete",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Tesla",
+            "facultyAdvisor": "Dr. Afra Mashhadi",
+            "posterLink": "./posters/csse/miravete-wes.jpg",
+            "abstract": "Over the summer, I worked as a software engineer intern with Tesla. I was hired onto the Core Automation Services (CAS) team, in the Factory Software organization. My team’s purpose was to automate and improve manufacturing processes in the Tesla factories around the world. Our bread and butter product was an application that ran on lineside station computers, to serve as a human-machine interface for workers on the line, and coordinate tasks the robots and humans need to perform across the factory.\n\nMost of my work was done on a web application that managed these lineside computer applications, and let the user push configuration deployments to them. I built out some large features, such as a configuration review pipeline and a provisioning automation process; the latter of which significantly improved the spin-up time of new lineside factory computers.\n\nMy experience with Tesla was extremely positive, and I had an incredible mentor who helped me at every step of the way. I discovered how helpful it is to have a mentor who knows the product and is passionate about teaching. In the last week of my internship, my mentor set up a demonstration meeting where I was able to deliver a summarizing presentation/demonstration of my accomplishments to a wide audience of more senior Tesla employees. My capstone presentation will be an NDA-compliant adaptation of this presentation, summarizing the work I did over the summer."
+        },
+        {
+            "time": "2:45 PM - 3:00 PM",
+            "projectId": "csse-7-245",
+            "title": "Conservative Media's Role In Fueling COVID-19 Related Conspiracy Theories and Vaccine Beliefs",
+            "studentName": "Andrew Montgomery",
+            "studentMajor": "CSSE",
+            "projectType": "CSS Faculty Research",
+            "facultyAdvisor": "Dr. Marc Dupuis",
+            "posterLink": "./posters/csse/montgomery-andrew.png",
+            "abstract": "For my capstone project I worked with Dr. Marc Dupuis to explore the emerging cyber security threat of misinformation and disinformation in the context of the COVID-19 pandemic. The COVID-19 pandemic greatly impacted the lives of everyone around the globe. With stay at home orders in place, people turned to the internet and mainstream media to obtain their COVID-19 related news. My research was focused on Conservative Media’s role in fueling COVID-19 related conspiracy beliefs. \n\nA survey was conducted using participants from Amazon’s Mechanical Turk (Mturk). The survey was used to determine participants political ideology, COVID-19 vaccine beliefs, COVID-19 conspiracy beliefs, vaccine initiation, preferred COVID-19 news sources, and trust in the accuracy of COVID-19 news. The survey had 821 valid responses that were used for subsequent analysis.\n\nOur results revealed that participants from our Republicans preferred to get their COVID-19 related news from right-leaning news sources and also demonstrated significantly higher levels of trust in the accuracy of COVID-19 related news from right-leaning media sources when compared to Non-Republicans.  In addition, Republicans were more found to have significantly higher levels of belief in COVID-19 conspiracy theories, significantly lower favorable beliefs towards the COVID-19 vaccine, and significantly lower levels of vaccine initiation than Non-Republicans.\n\nOur findings provide insight into the relationship between Conservative media’s promotion of COVID-19 related conspiracy theories and lower levels of vaccine initiation from Republicans. Future research is needed to understand the true impact that COVID-19 related conspiracy beliefs have on public health and potential methods to prevent future spread of misinformation during global pandemics."
+        },
+        {
+            "time": "3:00 PM - 3:15 PM",
+            "projectId": "csse-7-300",
+            "title": "Education of Students & Children in Cybersecurity",
+            "studentName": "Vijay Gorantla",
+            "studentMajor": "CSSE",
+            "projectType": "CSS Faculty Research",
+            "facultyAdvisor": "Dr. Marc Dupuis",
+            "posterLink": "./posters/csse/gorantla-vijay.jpg",
+            "abstract": "Cybersecurity is becoming more prevalent every day with the rise of cyber-attacks that range from simply using convincing words through social engineering to professional hacking of large-scale systems.\n\n  While these attacks affect many companies and some adults, they also affect students who are especially in middle and high school children who use the internet and social media often. 60% of children are exposed to cybersecurity threats. Therefore, it is important to educate them in ways that make them care about cybersecurity in their everyday life to protect themselves. While regular lectures or PSAs drill the matter of these concepts, they do not engage children in a way that makes them care and be proactive about it on their own.\n\n My experience as a student leader to teach students about Cybersecurity as part of this research gave me insight into what concepts are prevalent and which activities and subjects keep them engaging and which do not.  My research focuses on the cybersecurity topics that need to be covered and suggested ways that can keep children engaged. This includes guides and activities as an approach, according to current trends that are relevant to the students because proper engagement about this topic is crucial.\n\n  After my research, I presented specific topics that should be covered for children including ethics, CIA triad, Data and System Security, Adversarial Thinking, Deep Web, and Risk in the form of a manual. Different tools such as HackThisSite, Raspberry Pi, Kali Linux, JohnTheRipper, steghide were explored. This research is important to train students and children in effective and fun ways that keeps them engaged and safe on the internet and from cyber risks.  "
+        },
+        {
+            "time": "3:15 PM - 3:30 PM",
+            "projectId": "csse-7-315",
+            "title": "GenCyber Virtual Camp 2022",
+            "studentName": "Andrew Pham",
+            "studentMajor": "CSSE",
+            "projectType": "CSS Faculty Research",
+            "facultyAdvisor": "Dr. Marc Dupuis",
+            "posterLink": "./posters/csse/pham-andrew.png",
+            "abstract": "As part of my capstone project, I served as a Student Leader for the University of Washington Bothell GenCyber Virtual Camp, led by Professor Marc Dupuis. As a Student Leader, I was given the task of leading two separate groups of 7th-12th grade students over a week-long virtual camp where they participated in various activities to learn about cybersecurity-related concepts. These activities included discussions of ethical hacking and practical examples of various cybersecurity tools.\n\nThe main objective of this camp was to increase the student’s knowledge, skills, and abilities in relation to the GenCyber Cybersecurity Concepts, which include Defense in Depth, Confidentiality, Integrity, and Availability. Throughout the camp, special guest speakers shared their personal stories in hopes of enlightening the students to explore various careers and educational pathways surrounding cybersecurity. \n\nFor use and exploration, each student was given a free Raspberry Pi to apply their newfound knowledge and skills of cybersecurity. Particularly with the hands-on lab activities, the student’s demonstrated a great degree of enthusiasm toward learning the capabilities of Kali Linux in a digital forensics manner. Students in my group were highly interested in password management systems because of the previous hacks at major corporations like Target and Home Depot. Their interest was also peaked in the topic of how cryptography is created and why it is used, as well as the Linux operating systems.\n\n With the aim that they would discover their own career routes, I was able to educate the students through this capstone experience and introduce them to a variety of cybersecurity topics. Seeing the students being highly motivated and attentive to cybersecurity, I utilized the interesting topics and did further research, thus developing additional activities for future GenCyber Camps. "
+        }                  
+    ]
+}

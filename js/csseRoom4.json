@@ -1,0 +1,103 @@
+{
+    "csse": [
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "csse-4-100",
+            "title": "Managing AWS Permissions With IAM",
+            "studentName": "Keagan Johnson",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - INRIX",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "./posters/csse/johnson-keagantaylor.png",
+            "abstract": "This capstone project was intended to fix many of the issues INRIX was having with their Identity and Access Management (IAM) infrastructure in AWS. In short, their IAM Management configuration in AWS was inconsistent, insecure, and poorly documented. The project I did was to remedy these issues and give the organization control over how many permissions employees had.\n\n The first thing that was done was the documentation of the old system. If permissions were going to change, I would need a picture of what the permissions were now and how the roles were being used. During this time, I also created a permission lifecycle to ensure that roles would not be modified without consideration. This would help to curb unnecessary changes and keep roles smaller in scope. \n\nAfterwards I moved into restricting permissions and shifting policies into IaC. The end restrictions were limited – it was important not to disrupt working processes. However, it helped to create “ideals” and baseline policies that could be incorporated into the permission change process. Converting the IAM policies into IaC also helped to enable us to use GitHub to track changes, which gave us all the benefits GitHub offers for normal code reviews. \n\nOne more consideration was to implement Service Control Policies into the organization’s AWS environment. These are like IAM policies but apply to the full account instead of individual users. When combined with redesigned user IAM policies they help to protect critical infrastructure and prevent particularly dangerous mistakes. \n\nThe end result of these changes was an IAM system that was much more secure. The new IAM policies and permission lifecycle mean that users will have permissions more suitable for what they are doing and ensure that they can’t easily change them without oversight."
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "csse-4-115",
+            "title": "Analyzing and Restructuring the Testing Server Pipline",
+            "studentName": "Kole Johnson",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - INRIX",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "./posters/csse/johnson-koleriley.png",
+            "abstract": " "
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "csse-4-130",
+            "title": "Echelon Risk + Cyber Internship",
+            "studentName": "Daniella Pairault",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Echelon Risk + Cyber",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "./posters/csse/pairault-daniellalorena.png",
+            "abstract": "The main aim of this capstone project was to serve as an introduction, and learning experience, to the world of cybersecurity. My starting point was as an intern at Echelon Risk + Cyber, and more specifically, in the risk advisory team. The risk advisory team focuses on cybersecurity governance and compliance through various engagements, including IT auditing, compliance certification readiness assessments, and additional cybersecurity maturity evaluations and assistance services. \n\nMy  role  as  an  intern  began  with  researching  various  tools  and  exploring  partnerships  Echelon  would  be doing,  and  working  with,  regarding  client  engagements.  Following  my  first  couple  weeks  of  research,  I began  to  be  involved  in  client  engagements  including  cybersecurity  maturity  assessments,  business continuity and disaster recovery plans, and security awareness training. \n\nAlso involved during my internship was performing internal governance duties to ensure that, in essence, we  would  be  practicing  what  we  preach.  This  entailed  reviewing  our  internal  configurations,  internal governance policies, strong-arming phishing campaigns, and continuing the ongoing effort to ensure that our maturity as a cybersecurity organization is high. \n\nThroughout  my  internship  I  was  lucky  enough  to  learn  a  significant  amount  information  regarding  the difficulties in implementing a proper cybersecurity program within any organization. Developing a proper cybersecurity program within an organization takes a great number of resources, infrastructure, and labor. During my time at Echelon, I have learned how different frameworks, tools, and practices impact, positively or negatively, the cybersecurity of a company, and what the potential risks and consequences are."
+        },
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "csse-4-145",
+            "title": "Analyzing Robustness of Kernel O Anti-Cheat Systems Using Computer Vision and Machine Learning",
+            "studentName": "Alexander Weldon",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "./posters/csse/weldon-alexanderkurt.jpg",
+            "abstract": "The goal of my individual capstone project was to stimulate the discussion of the inherent security risks in Kernel 0 anti-cheat systems by exploring how such systems may be bypassed in the future. Kernel 0 anti-cheat systems are becoming increasingly prevalent in competitive video games. These systems have unfettered access to users' computers and provide an entry point to negative actors. These systems say that allowing such permissions is necessary to provide the best anti-cheat possible. My project aimed to point out weaknesses in these systems by testing a way to circumvent them. Thereby showing that they are not the absolute security system these companies purport them to be and that the inherent risks of systems like these are not outweighed by the benefits.\n\n The strategy I devised and implemented during my internship was the development of a working prototype that streams visual content from a gaming machine over to a computation machine via a software application called OBS NDI. The computation machine then runs a python script using the OpenCV library which makes use of computer vision to analyze the video stream, select targets, and return commands back to the gaming pc on target locations and when to fire. While my design implementation did not bypass the Kernel 0 anti-cheat due to the commands, I ended up using to move the cursor on the gaming PC. I discovered that the theory behind my software bypassed kernel 0 anti-cheat systems. \n\nThrough this project, I have been able to conclude that kernel 0 anti-cheat systems will eventually be bypassed either by a solution like mine or via other technologies that are already emerging. When these systems are compromised, they will no longer provide the level of security that validates the inherent permissions granted. The danger is that any vulnerability in the anti-cheat can function as an access point for bad actors.\n\nMy key learnings and skills developed from this challenging project are my proficiency in the python programming language. I have also built on my learning from CSS 382 Intro to AI by learning more about Machine learning and its applications of computer visions through the OpenCV python package."
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "csse-4-200",
+            "title": "Gaining Industry Experience With ServiceNow",
+            "studentName": "Danny Banko",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - ServiceNow",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "./posters/csse/banko-danny.png",
+            "abstract": "The main purpose of this capstone project was to gain industry experience with software engineering by working on a project that has real users and follows a real-world software development lifecycle. This software engineering internship involved working on an agile team that gathered requirements, implemented features, performed thorough code reviews, and pushed code to production.\n\nThe first step to having a successful internship with ServiceNow was to learn the tools and technologies that the team works with on a day-to-day basis. This involved learning how to navigate and use the Now Platform used for project management, software development, and shipping code to production.\n\nOnce an adequate understanding of how the Now Platform works and what out-of-box features it includes, the next step was to develop multiple features on the Employee Portal application. The features implemented for the application involved both front end and back end coding with JavaScript, and the Now Platform which has a built-in table structure that acts as a database.\n\n After the features were developed, tested, and the code was shipped to production, there was some downtime between the first project and the next project. This downtime was spent creating a set of onboarding and DevOps documentation for future new hires to get up to speed more efficiently.\n\n After about a week, onboarding documentation was completed and a new project was assigned which involved creating a new web application from scratch using Service Portal which is a built-in feature of the Now Platform. Service Portal allows for easy configuration and quick development of web applications. \n\nThis web application was requested from the Chief Operations Officer as a way to centralize all organizational announcements and news in one place. This project involved gathering business requirements, UI/UX design, two iterations of implementation, and testing. The first iteration of implementation was to create a static web application that could be showcased to management, and the second iteration was to make it a dynamic, self-serve application where admins could update content of the application with no coding knowledge required."
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "projectId": "csse-4-215",
+            "title": "Task Management at Intuit",
+            "studentName": "Olga Kuriatnyk",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Intuit Inc.",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "./posters/csse/kuriatnyk-olga.png",
+            "abstract": "During my internship at Intuit I worked on the Intuit Project and Task Management (IPTM). IPTM team is developing the task management widget framework. The framework allows offering teams across Intuit to provide a consistent task experience across the Intuit ecosystem, accelerate speed to benefit customers, and leverage and contribute to the capability. One of the most important focuses for the IPTM team is to create durable and configurable task management components and widgets. Tasks are a key component of powering prosperity in customers' lives, whether that is helping them stay on top of the work involved in managing and growing their business, or guiding them to improve their financial health and well-being.\n\nMy project at Intuit was to build a Task Table widget. It is a configurable React component that shows a table of tasks to help users finish their work on time. It meant to be used when the information is too complex and needs a layout that can help users easily compare and comprehend that information. For example, when there is a large number of tasks, each with copious attributes related to the task, table layouts are recommended. This widget is also configurable to have the relevant information needed by each offering team.\n\nMy project involved meeting with the team to gather and understand the project requirements and desired outcomes, and seek feedback regularly. After I designed the project plan and got it approved by my mentor and manager, I started an incremental implementation. The implementation required regular communication with the designer, product manager, and software engineers to ensure the quality of the project. The result of the project allows a complete task management experience out of the box by integrating UI, data, and services layers, creating a simple “plug and play” experience for Intuit offering teams."
+        },
+        {
+            "time": "2:30 PM - 2:45 PM",
+            "projectId": "csse-4-230",
+            "title": "Data Access Filtering Project",
+            "studentName": "Michael Zelinger",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Tableau",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "./posters/csse/zelinger-michael.jpg",
+            "abstract": "During my internship at a Seattle based tech company that specializes in data, and data analytics I was tasked with working on a project to help complete a long coming solution to a problem with filtering data access at load time for their customers.\n\nThe main issue that arises from not having this functionality is loss of customers, which means loss of incoming money. The feature I was working on for the project included creating the ability to integrate the company's software with systems that already have data policies without having to replicate those policies within the software. My job was to create functions that are based on user attributes of different data types such as, string, float, boolean, that can then be used by the customers to filter what data can be viewed at load time, and support the customers with their large deployment. As part of my contribution I was also tasked with writing calculations with mock attributes for testing purposes, and performing code debugging and revision.\n\nIn order to complete my goals I had to utilize tools such as, Microsoft Visual Studio, IntelliJ, Reviewboard, and Microsoft DevOps. Each of those tools served a different purpose. For code that had to be written and debugged in C++ I had used Microsoft Visual Studio, for code that was written and debugged in Java I had used IntelliJ, to upload and review code by peers I would use Reviewboard, and to keep track and update my status on user stories and tasks I would use Microsoft DevOps.\n\nThe result of this incredible internship is first the amount of learning I had gone through in terms of working as part of a team, learning to work with large codebase, learning many technologies, and much more. Other than that, the product that I have helped push into the market will now be first assisting the customers that needed it to make their objectives easier to obtain, and of course will help the company retain and regain customers."
+        },
+        {
+            "time": "2:45 PM - 3:00 PM",
+            "projectId": "csse-4-245",
+            "title": "AWS AppFlow Internship",
+            "studentName": "Ethan Berg",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Amazon",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "./posters/csse/berg-ethanwalter.jpg",
+            "abstract": "Over the Summer, I had an internship at AWS on the AppFlow team. I am under NDA, so certain specifics must be left out. AppFlow is a service for integrating SaaS applications. I was presented with a project for a feature that would add visible customer benefit, with a scope that would affect every customer flow. It would shape the way the service was used by the customer. The project came about because the customer needed a specific way to handle information that would travel through the service. It would allow the customer to have more control over their AppFlow flow. If done properly the project would provide a much better customer experience and increase service functionality and precision.\n\n The approach to the project was straightforward at first. Amazon has a clear design process to follow. The main variables that contributed to the project was internship time, user experience, development efficiency, and perceived user benefit. I first worked on analyzing the code bases, and related files. This was to gather context for my work. I then started writing my design document. As I was doing this, I was also refactoring older code to make the foundation for my work stronger. Once my design document was presented and accepted, I then started working. My project work spanned both the front end and the back end. In fact, a large portion of the project was related to back end and front-end communication. Once implementation was done, I worked with integration tests to verify my feature. \n\nHowever, there were things that did not go as smoothly, and I had to deal with these. There were holes in the original project requirements. Problems crept up as the project went on, and more implementation details had to be addressed. So, I drove the project through design, implementation, and then testing, despite setbacks and changes to the project. I also worked directly with the UX design team and coordinated with them on the project.\n\nIn the end, I delivered my project on time, and completed stretch goals for my project. The feature I made turned out to be a worthy addition to AppFlow and delivered the expected value. "
+        },
+        {
+            "time": "3:00 PM - 3:15 PM",
+            "projectId": "csse-4-300",
+            "title": "Software Engineer Internship at Microsoft",
+            "studentName": "Luke Argosino",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Microsoft",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "./posters/csse/argosino-lukeesteban.png",
+            "abstract": "As a Software Engineer Intern at Microsoft, I had the exciting opportunity to contribute to the development of the Azure mobile app. The main feature I worked on was an overhaul of the metric alerts view in the app.\n\nMetric alerts are user-defined alerts for Azure customers to be notified when their resource has crossed a certain threshold. The previous implementation in the Azure app was using old API calls, as well as outdated programming practices and design language. As such, it was my job to work with the designers and Azure Mobile team to program a new view into the app.\n\nIn collaboration with the Azure Mobile team, I was able to design and implement a user-friendly interface that allows users to easily monitor and respond to their metric alerts on the go. This new view provides users with on-the-go real-time data on the status of their alerts, as well as the ability to view alert thresholds and other important information to properly diagnose the problem.\n\nWhile enhancing the functionality of the app, the new metric alert view also improves the user experience by providing more information to the user so that they do not have to be at their development machine to respond to an issue. This ultimately helps users to better monitor and maintain their Azure resources, leading to improved efficiency and productivity.\n\nWorking on the Azure mobile app was a valuable and rewarding experience. I gained hands-on experience in multi-platform app development (C#, Xamarin) and also had the chance to learn from industry experts and contribute to a popular product used by many organizations. Overall, the internship was an amazing opportunity to learn and apply my skills to make a meaningful impact at a major technology company."
+        }             
+    ]
+}

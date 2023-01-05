@@ -1,0 +1,114 @@
+{
+    "csse": [
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "csse-3-100",
+            "title": "Software Developer Internship at Red Airship",
+            "studentName": "Lionel Cheng",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Red AirShip",
+            "facultyAdvisor": "Dr. Annuska Zolyomi",
+            "posterLink": "./posters/csse/cheng-lionel.jpg",
+            "abstract": "For my capstone I decided to take on a software development internship over at Red Airship, a software development agency based in Singapore. Throughout this internship I undertook a front-end web application development project as well as a mobile application quality assurance project.\n\nThe front-end web development project was for a Japanese multinational video game publisher. I worked together with a senior developer in developing portions a revamped version of their game overview page of a single video game franchise. This portion of the internship involved me using basic HTML, CSS, and Javascript along with the Flutter framework for CSS and React framework for JavaScript. Having little to no experience with these new frameworks, I learned to search for resources and documentation to pick up these technologies and gradually put them into practice.\n\nAs for the mobile application quality assurance project, I worked with another more senior developer in automating their quality assurance tests. This time, the application I was testing was a consumer mobile application for a bank based in Singapore. This process entailed me using Appium, (an open-source test automation framework for Android and iOS) along with Browser Stack (a web-based mobile testing platform for a variety of mobile devices)."
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "csse-3-115",
+            "title": "Premera Internship",
+            "studentName": "Monica King",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Premera Blue Cross Blue Shield",
+            "facultyAdvisor": "Dr. Annuska Zolyomi",
+            "posterLink": "./posters/csse/king-monica.jpg",
+            "abstract": "During my colloquium, I interned as a software engineer at Premera Blue Cross Blue Shield. I was part of a team that was developing tools to automate tasks and make the workload easier for IT employees. I learned through observation and then through my own project, which involved implementing a search function for employees' AgentIDs and StationIDs. The project was hosted in AWS and written in C# as an addition to an existing web application.\n\nThe project was straightforward, but complications arose from our relationship with an external company that held the Agent and Station IDs and managed the associated systems. It took a long time to gain access to their API, and when I finally did, it was not what I expected. I had prepared for a REST API, but the company used a SOAP API with a completely different layout. Despite the challenges, I was able to figure it out and complete the project.\n\nIn the end, I was rewarded with a return offer from Premera. Although the application was tabled and not used by the IT department, I still learned a lot about working in a variable environment and remotely. The experience was impactful and valuable, even if the project did not end up being used."
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "csse-3-130",
+            "title": "Inventory Transfer Lifecycle Analytics",
+            "studentName": "Jerry Kidik",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Nordstrom",
+            "facultyAdvisor": "Dr. Annuska Zolyomi",
+            "posterLink": "./posters/csse/kidik-jerry.jpg",
+            "abstract": "The Seattle-based retailer is leveraging data to improve performance and as a result, drive company’s growth. For these purposes, an insight-driven approach is crucial, especially when it comes to making decisions in all areas of the business, including the core divisions - merchandising and supply chain.\n\n One of the focuses of the business is to improve internal transfer visibility. This can result in transferring units of inventory within the network faster, and delivering it at the right time, at the right place. The goal for me in this internship was to come up with a centralized visibility of all processes of inventory movements from one location to another (both stores and warehouses), within the internal business environment. \n\nI utilized Tableau as a primary tool for building a dashboard that could be used by different divisions of the business and help in switching from a reactive into proactive approach of reviewing transfer health. Tableau has a simple front-end interface that helps with running data analysis and obtaining the needed level of granularity based on the user’s needs and proficiency. It also assisted with switching from running analyses and making business decisions based on ad-hoc SQL queries and move into centralized dashboard analytical capability that would help visualize the status of inventory movements and drill all the way into specifics of each individual transfer - allowing users to proactively identify and assess issues.\n\n Throughout my internship, I went through the entire development lifecycle with engineering teams and business partners which included planning, creating, testing, and finally deploying the MVP of the transfer tracking tool. This tool is currently delivering net new insights and helps with driving meaningful conversations between different business units on improving transfer processes within the network."
+        },
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "csse-3-145",
+            "title": "Test Automation",
+            "studentName": "Jaden Moore",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Microsystems Engineering",
+            "facultyAdvisor": "Dr. Annuska Zolyomi",
+            "posterLink": "./posters/csse/moore-christian-updated.png",
+            "abstract": "During the summer of 2022, I worked as a Software Engineering intern for Micro Systems Engineering Inc (MSEI), a medical company based in Lake Oswego, Oregon. MSEI is a leading microelectronic designer and manufacturer of cardiac rhythm management devices, neurostimulation devices, and many more. During my time with the company, I was assigned the project of test automation.\n\n As a company in the medical field, precision and traceability are of utmost importance at MSEI. To trace all devices during the manufacturing process, MSEI uses software to replicate everything happening in real-time virtually. Prior to my project, as upgrades were released to the software, all system testing was done by manual execution through the use of screenshots and text documentation, which added up to thousands of hours of labor. My project was to automate the system testing so this process each year could be done through minimal effort and save hours of repetitive labor.\n\nDuring my time at MSEI, I used many pieces of technology to accomplish my assignment. My daily workstation consisted of a Virtual Machine that housed all the needed information for my tasks. To get into specifics, I programmed in Visual Studios using C# as well as Gherkin, which is a domain-specific language that uses the Cucumber framework. The Gherkin code allowed for easy readability of the automated tests so even those who are inexperienced with programming languages could understand what was happening.\n\n At the end of my time with MSEI, I was able to complete around one-third of all tests that were capable of being automated. This was a huge step toward the company’s end goal of complete test automation. In terms of significance, automated testing not only saves thousands of hours of labor, but also allows individuals to focus on other projects instead of repetitive work."
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "csse-3-200",
+            "title": "Design of Context-Aware Speech-Generating Devices for Autism",
+            "studentName": "Ayumi Oishi",
+            "studentMajor": "CSSE",
+            "projectType": "CSS Faculty Research",
+            "facultyAdvisor": "Dr. Annuska Zolyomi",
+            "posterLink": "./posters/csse/oishi-ayumi.png",
+            "abstract": "This research project focused on children on the autism spectrum who use augmentative and alternative communication (AAC) aids. Autism spectrum disorder (ASD) is a developmental disability that can cause a wide range of challenges in social interactions, communication, and behaviors. Some of autistic children are non-verbal and use AAC aids in analog and digital forms of communication. Through our research, we focused on technology of daily communication for children with autism who use AAC aids.\n\nAAC aids include analog picture boards and digital speech-generating-devices (SGDs) that use text-to-speech technology to translate images or words selected by the user into speech output. SGDs exist in the marketplace but are difficult to set up, use, and customize for the daily activities of the children. Therefore, our research group focuses on the different contexts—settings, people, and activities—in which autistic children engage in interpersonal interactions. We also aimed to personalize the contents of our app to the users, having vocabularies appropriate to the child’s language development phase, or having commonly used words be easily accessible and editable. Parents of autistic children and speech therapists are also secondary users of AAC aids who mostly configure the device settings. Our interviews revealed their concerns, not only about the configuration of AAC aids, but also about how to use them in emergency scenarios involving health accidents or incidents.\n\nWe coordinated a series of research steps to design and prototype an SGD that is context-aware. There is advantage of adding contextual information from the environment (such as the current activity based on time of day and location), since these functions are not available on current SGDs, users need time to configure. Our first step investigated how the children use AAC aids in their lives. We then learned how to use AAC aids to analyze their current function.   Finally, we developed initial design concepts, coordinated the field observation, built prototypes, and gathered initial feedback from stakeholders.\n\nThrough a series of observations, user-centered design activities, and usability tests, we built an empirically-based, low-fidelity prototype. Our future task is to use this prototype to conduct further user interviews and build an actual application that will enrich communication between autistic children and their surroundings."
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "projectId": "csse-3-215",
+            "title": "Design of Context-Aware Speech-Generating Devices for Autism",
+            "studentName": "Calvin Lim",
+            "studentMajor": "CSSE",
+            "projectType": "CSS Faculty Research",
+            "facultyAdvisor": "Dr. Annuska Zolyomi",
+            "posterLink": "./posters/csse/lim-calvin.png",
+            "abstract": " People who are diagnosed with autism spectrum disorder (ASD) have varying levels of social communication, social interaction, repetitive and restrictive behaviors, and hyper- or hypo-sensitive to senses. On top of that, some may be non-verbal. However, that doesn’t make them any less human or less intellectual, and they deserve to express themselves nonetheless. Technology can help with that.\n\nCurrently on the market, there are speech-generating devices (SGD) that use text-to-speech (TTS) technology that takes a text input, usually through buttons with associated words or keyboard input, and outputs a “voice” through a tablet or a specifically designated device commonly referred to Augmentative and Alternative Communication (AAC) devices. From our stakeholders, the main problems with current AAC devices are that the vocabulary showing on the screens are non-contextual, and they lack an emergency feature. Activities happen in the context — be it social context, physical circumstances, or even the activity itself — current AAC devices hinder contextual understanding for the child. Vocabularies displayed on the AAC device’s screen lack meaningful connection which makes configuration challenging for therapist(s) and/or guardian(s) of the child. As for the emergency feature, non-verbal children on the spectrum may find difficulty in responding to emergency scenarios, such as accidents or incidents, even though the AAC device is essentially an extension of their voice.\n\nBefore creating an app for user testing, methodologies from user research can help build a good understanding of the focus group, which in this case is the children, and what it means for the children to have a context-aware AAC device that has an emergency feature. People Activities Context Technologies (PACT) model was iteratively created to further inform ourselves of our focus group. Digital ethnographies were conducted to see AAC devices used in real-life settings. Field observations were conducted to see AAC devices being used in its environment in-person. Interviews with stakeholders were conducted to further clarify assumptions and explore pain points. Lastly, a low-fidelity prototype was created to draw out an initial concept design through distilling our findings and research.\n\nThis project has multiple phases, and we are currently in its initial phase. There are a lot more details to be finetuned and feedbacks to be provided from stakeholders, but we hope that our initial domain analysis and research conclusions may pave a smoother path for future students that are eager to take on the project and bring it life."
+        },
+        {
+            "time": "2:30 PM - 2:45 PM",
+            "projectId": "csse-3-230",
+            "title": "DSP Personalization",
+            "studentName": "Elijah Shaw",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Annuska Zolyomi",
+            "posterLink": "./posters/csse/shaw-elijahconnor.jpg",
+            "abstract": "The purpose of this independent project was to design and implement a User Interface (UI) for a Dedicated Streaming Platform (DSP) that allows a user to have a higher degree of control over the visuals and information presented in the application than typical DSPs. This project was decided on due to the general lack of customization present in most modern DSPs, like Spotify or Apple Music. The primary goal was to show how easily features allowing users to personalize their experience in DSP applications could be implemented.\n\nA lightweight framework called Flutter, which uses Google’s Dart language, was selected in order to develop a simple application that could illustrate this goal. Flutter was chosen due to its large array of predeveloped application components and its low amount of logical, manually written code. Flutter also allows for instant testing and debugging of a mobile build by displaying the current build on either a real smartphone or an emulator. This allowed for fast, visually aided UI development and significantly lowered the complexity of required code.\n\nUsing Flutter, a simple example application was developed containing the core UI elements common to popular DSPs. This included various navigationally reached pages, like ‘home’ or ‘library’, as well as examples of templated, embedded pages, like albums and artists. A simple, minimized player UI was implemented without media functionality in order to provide a more visually accurate example application. Functional settings were implemented that allow a user to personalize the visual feel of the application, such as color scheme, sharpness of objects, and amount of information present on the screen. \n\nIn that sense, this project was successful in displaying how large DSPs choose to ignore an aspect of their applications, a simple example of which could be programmed by an individual student in only nine weeks. With the power of a DSP’s software team, personalization functionality such as this should be relatively straightforward to implement and could potentially provide a better experience to their user base."
+        },
+        {
+            "time": "2:45 PM - 3:00 PM",
+            "projectId": "csse-3-245",
+            "title": "Accessible Engineering at Liberty Mutual",
+            "studentName": "Brennan Ayers",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Liberty Mutual",
+            "facultyAdvisor": "Dr. Annuska Zolyomi",
+            "posterLink": "./posters/csse/ayers-brennan.png",
+            "abstract": "In my capstone internship, I completed a summer with Liberty Mutual on a front-end software engineering team. Through my time with Liberty Mutual, I was exposed to a myriad of new technologies, engineering techniques, and corporate structures that will serve me well post-graduation. \n\nMy work was mainly focused around developing an application named “Support-UI”. This application serves as a part of a larger application which provides Liberty Mutual employees with rapid information as they’re on customer-facing calls. When receiving a call from a customer regarding their insurance policies, “Support-UI” populates all of the relevant information to the customer calling, as well as facilitates any possible action to the user’s policy the agent could want. \n\nMy main focus was engineering this software while focusing on accessibility and usability from the ground-up. Using resources from Professor Zolyomi, I was able to advocate and implement accessibility-focused software systems and bring fresh perspectives to my team. My contributions to the team were both recognized and appreciated, with specific mention being made to the advocacy I brought to the engineering process during my time. \n\nUtilizing technologies like React, JavaScript, and SQL, I was able to create a micro-frontend for the service, populating a screen focusing on “agency exclusions”. Due to the nature of Liberty Mutual’s sales operations across the country, certain geographical, legal, and business factors restrict certain types of services being offered. The service I was able to create focused on using database queries and modern front-end technologies to create a quick and accessible portal for use by agents. Using accessibility development tools made available by Liberty Mutual and organizations like the American Disability Act, I was able to ensure that the application adhered to WCAG (Web Content Accessibility Guidelines) standards for accessibility. While Liberty Mutual has a focus on improving accessibility in their software, my work went above and beyond those standards to ensure fair usage of critical tools. "
+        },
+        {
+            "time": "3:00 PM - 3:15 PM",
+            "projectId": "csse-3-300",
+            "title": "Customer Bug SLA Optimization",
+            "studentName": "Clyde Gjeci",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - DocuSign",
+            "facultyAdvisor": "Dr. Annuska Zolyomi",
+            "posterLink": "./posters/csse/gjeci-clyde.png",
+            "abstract": "The Seattle-based technology company aims to improve delivery times on internal customer reported bugs. The exponential growth during the 2020-2021 period brought the company many new customers. This new customer base has overwhelmed the current engineering teams and many bugs have not been addressed appropriately. The current struggles lie on the lack of a unified process within the organization.\n\nSupport engineers have been asking leadership for a solution to the numerous issues reported. The company has reported significant financial losses in terms of monthly recurring revenue (MRR) and missed some big contracts that hugely affected customer attrition. Technical Program Manager leadership has been assigned to help solve the issue. For this purpose, a data driven approach is crucial when it comes to establishing the new process.\n\nI was assigned to work on creating this process by the director of Technical Program Management. I utilized Salesforce and Jira dashboards to track important data. I met with over 30 people within the organization to investigate the issue further. I did a lot of research on team structure, agile methodology, competitors' approach to solving the issue, and took the Six Sigma Foundation training. I created a prototype process and worked on establishing the new process with a trial team. After getting feedback from team leadership, further improvements, and gathering data on progress I had a complete process.\n\nI presented my findings, the data, and the new process to the company's higher leadership. I was asked to work with multiple teams and help incorporate the new process as a vital part of customer attrition."
+        }, 
+        {
+            "time": "3:15 PM - 3:30 PM",
+            "projectId": "csse-3-315",
+            "title": "Automated Rule Modeling Documentation Website",
+            "studentName": "Landon Ton",
+            "studentMajor": "CSSE",
+            "projectType": "Internship - Intel",
+            "facultyAdvisor": "Dr. Annuska Zolyomi",
+            "posterLink": "./posters/csse/ton-landonphikhoi.jpg",
+            "abstract": " "
+        }            
+    ]
+}
